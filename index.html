@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .calculator-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        }
+        .btn {
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        #display {
+            font-size: 1.5rem;
+            height: 50px;
+            background-color: #f8f9fa;
+            border: 2px solid #ced4da;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-8 col-10">
+                <div class="card calculator-card">
+                    <div class="card-body">
+                        <h3 class="card-title text-center mb-4">Calculator</h3>
+                        <input type="text" class="form-control mb-3" id="display" readonly>
+                        <div class="row g-2">
+                            <div class="col-3"><button class="btn btn-secondary w-100 mb-2">7</button></div>
+                            <div class="col-3"><button class="btn btn-secondary w-100 mb-2">8</button></div>
+                            <div class="col-3"><button class="btn btn-secondary w-100 mb-2">9</button></div>
+                            <div class="col-3"><button class="btn btn-primary w-100 mb-2">/</button></div>
+                        </div>
+                        <div class="row g-2">
+                            <div class="col-3"><button class="btn btn-secondary w-100 mb-2">4</button></div>
+                            <div class="col-3"><button class="btn btn-secondary w-100 mb-2">5</button></div>
+                            <div class="col-3"><button class="btn btn-secondary w-100 mb-2">6</button></div>
+                            <div class="col-3"><button class="btn btn-primary w-100 mb-2">*</button></div>
+                        </div>
+                        <div class="row g-2">
+                            <div class="col-3"><button class="btn btn-secondary w-100 mb-2">1</button></div>
+                            <div class="col-3"><button class="btn btn-secondary w-100 mb-2">2</button></div>
+                            <div class="col-3"><button class="btn btn-secondary w-100 mb-2">3</button></div>
+                            <div class="col-3"><button class="btn btn-primary w-100 mb-2">-</button></div>
+                        </div>
+                        <div class="row g-2">
+                            <div class="col-3"><button class="btn btn-secondary w-100 mb-2">0</button></div>
+                            <div class="col-3"><button class="btn btn-secondary w-100 mb-2">.</button></div>
+                            <div class="col-3"><button class="btn btn-success w-100 mb-2">=</button></div>
+                            <div class="col-3"><button class="btn btn-primary w-100 mb-2">+</button></div>
+                        </div>
+                        <div class="row g-2">
+                            <div class="col-12"><button class="btn btn-danger w-100">Clear</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
